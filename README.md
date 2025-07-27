@@ -41,7 +41,7 @@ A comprehensive system to manage vehicle service centers, track appointments, ma
    git clone https://github.com/yourusername/vehicle-service-management.git
    cd vehicle-service-management
 ```
-2.Setup your environment (e.g., XAMPP or Node environment)
+2. Setup your environment (e.g., XAMPP or Node environment)
 
 3. Import the database:
 
