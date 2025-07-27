@@ -83,7 +83,7 @@ A comprehensive system to manage vehicle service centers, track appointments, ma
  - Password: user123
 
 ## 📸 Screenshots
-(Add interface screenshots like dashboard, booking form, etc.)
+![Home Page](images/home.png)
 
 ## 📃 License
 MIT License
