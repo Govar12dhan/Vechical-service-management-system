@@ -10,7 +10,7 @@ A comprehensive system to manage vehicle service centers, track appointments, ma
 
  - View service reports
 
--Mechanic
+- Mechanic
 
  - View assigned tasks
 
@@ -36,55 +36,55 @@ A comprehensive system to manage vehicle service centers, track appointments, ma
 - Tools: VS Code, Git, XAMPP/WAMP (if PHP)
 
 ## 🧑‍💻 How to Run This Project
-Clone the repository:
+1. Clone the repository:
+```bash
+   git clone https://github.com/yourusername/vehicle-service-management.git
+   cd vehicle-service-management
+```
+2.Setup your environment (e.g., XAMPP or Node environment)
 
-git clone https://github.com/yourusername/vehicle-service-management.git
-Setup your environment (e.g., XAMPP or Node environment)
+3. Import the database:
 
-Import the database:
+ - Use the .sql file from the /database folder
 
-Use the .sql file from the /database folder
+4. Start the server:
+```bash
+   npm start
+   # or use Apache for PHP
+```
+## 📊 Database Tables
+- users – Stores customer, mechanic, and admin info
 
-Start the server:
+- vehicles – Vehicle data linked to customer
 
-bash
-Copy
-Edit
-npm start
-# or use Apache for PHP
-📊 Database Tables
-users – Stores customer, mechanic, and admin info
+- appointments – Booking details and schedule
 
-vehicles – Vehicle data linked to customer
+- services – Logs service updates and status
 
-appointments – Booking details and schedule
+- payments – Optional module for billing
 
-services – Logs service updates and status
+## 🧪 Sample Credentials
+- Admin
 
-payments – Optional module for billing
+ - Email: admin@vsms.com
 
-🧪 Sample Credentials
-Admin
+ - Password: admin123
 
-Email: admin@vsms.com
+- Mechanic
 
-Password: admin123
+ - Email: mech@vsms.com
 
-Mechanic
+ - Password: mech123
 
-Email: mech@vsms.com
+- Customer
 
-Password: mech123
+ - Email: user@vsms.com
 
-Customer
+ - Password: user123
 
-Email: user@vsms.com
-
-Password: user123
-
-📸 Screenshots
+## 📸 Screenshots
 (Add interface screenshots like dashboard, booking form, etc.)
 
-📃 License
+## 📃 License
 MIT License
 
