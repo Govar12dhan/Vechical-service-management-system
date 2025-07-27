@@ -1,25 +1,90 @@
-## PROCEDURE TO RUN THIS PROJECT
+## 🚗 Vehicle Service Management System
+A comprehensive system to manage vehicle service centers, track appointments, manage customer and vehicle data, assign mechanics, and generate service records.
 
-First create new folder, then open new folder.
+## 📋 Modules
+- Admin
 
-Select the path and open terminal.
+ - Manage users (customers, mechanics)
 
-Install Django- Install django by giving following command- pip install django.
+ - View and assign appointments
 
-To initiate a project of Django on Your PC, open Terminal and Enter the following command- django-admin startproject projectName.
+ - View service reports
 
-A New Folder with name projectName will be created. To enter in the project using terminal enter command- cd projectName.
+-Mechanic
 
-To create a basic app in your Django project you need to go to directory containing manage.py and from there enter the command: python manage.py startapp projectApp
+ - View assigned tasks
 
-Open Visual studio code to follow the command- code.
+ - Update service status
 
-Now you can see your directory structure as under
+- Customer
 
-Then write run command python manage.py runserver
+ - Register/Login
 
-## LICENSE
+ - Add vehicles
 
-This project is dedicated to the public domain. As such, it is freely available for anyone to use, modify, and distribute without restriction.
+ - Book service appointments
 
-You may use this project for any purpose, including commercial and personal use. There are no restrictions on modifications or redistribution. No warranty is provided with this software
+ - View service history
+
+## 🔧 Technologies Used
+- Frontend: HTML, CSS, JavaScript
+
+- Backend: PHP / Node.js / Django (choose based on your stack)
+
+- Database: MySQL / PostgreSQL / MongoDB
+
+- Tools: VS Code, Git, XAMPP/WAMP (if PHP)
+
+## 🧑‍💻 How to Run This Project
+Clone the repository:
+
+git clone https://github.com/yourusername/vehicle-service-management.git
+Setup your environment (e.g., XAMPP or Node environment)
+
+Import the database:
+
+Use the .sql file from the /database folder
+
+Start the server:
+
+bash
+Copy
+Edit
+npm start
+# or use Apache for PHP
+📊 Database Tables
+users – Stores customer, mechanic, and admin info
+
+vehicles – Vehicle data linked to customer
+
+appointments – Booking details and schedule
+
+services – Logs service updates and status
+
+payments – Optional module for billing
+
+🧪 Sample Credentials
+Admin
+
+Email: admin@vsms.com
+
+Password: admin123
+
+Mechanic
+
+Email: mech@vsms.com
+
+Password: mech123
+
+Customer
+
+Email: user@vsms.com
+
+Password: user123
+
+📸 Screenshots
+(Add interface screenshots like dashboard, booking form, etc.)
+
+📃 License
+MIT License
+
